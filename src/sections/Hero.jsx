@@ -23,7 +23,9 @@ const Hero = () => {
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:mw-w-sm">
         Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
         </p>
+        <div>
         <Button label="Shop Now" iconURL={arrowRight }/>
+        </div>
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index)=>(
             <div key={index}>
